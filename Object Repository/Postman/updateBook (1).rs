@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>updateBook (1)</name>
+   <tag></tag>
+   <elementGuidId>2e86296c-3d0a-4443-9fb6-766f926c0267</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n    \&quot;bookingid\&quot;: 2089,\r\n    \&quot;booking\&quot;: {\r\n        \&quot;firstname\&quot;: \&quot;aldy\&quot;,\r\n        \&quot;lastname\&quot;: \&quot;s\&quot;,\r\n        \&quot;totalprice\&quot;: 1652024,\r\n        \&quot;depositpaid\&quot;: true,\r\n        \&quot;bookingdates\&quot;: {\r\n            \&quot;checkin\&quot;: \&quot;2024-01-06\&quot;,\r\n            \&quot;checkout\&quot;: \&quot;2024-01-08\&quot;\r\n        },\r\n        \&quot;additionalneeds\&quot;: \&quot;null\&quot;\r\n    }\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>b2b94d3b-467e-41f4-9834-3bc8b143b004</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>3aab200d-e174-465d-b372-978638c39308</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Cookie</name>
+      <type>Main</type>
+      <value>token=499128ae8278d2a</value>
+      <webElementGuid>d2e2050b-baf9-4a93-90cd-a485f90b029b</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.6.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>https://restful-booker.herokuapp.com/booking/2089</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
